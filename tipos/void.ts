@@ -23,3 +23,5 @@ function setInfo2(user: string){
 }
 
 setInfo('MARIO')
+
+//EL TIPO VOID SOLO PERMITE UNDEFINED

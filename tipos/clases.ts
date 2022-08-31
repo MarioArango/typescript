@@ -51,7 +51,7 @@ album.addPicture(picture)
 //que garantice alguna restriccion de veracidad, por eso se le asigna un modificador
 //de acceso a los atributos y metodos get y set respectivos, los cuales son como proxy
 //Los metodos tambien pueden tener el modificadore de acceso private, esto significaria
-//que son metodos que permiten la logica interna de la clase, más no acceso del cliente
+//que son metodos que permiten la logica interna de la clase, más no acceso en la instancia
 // album.id = 2
 //PUBLIC -> por defecto, el constructor siempre es public (TS)
 //PRIVATE -> atributos de solo lectura y acceso interno en la clase (TS)
@@ -109,7 +109,7 @@ class Person {
     }
 }
 
-//mODIFICADORES DE ACCESO GET Y SET -> TS, interceptan el acceso, como lo defini antes
+//MODIFICADORES DE ACCESO GET Y SET -> TS, interceptan el acceso, como lo defini antes
 //es un proxy 
 
 const mario = new Person(72935585)
